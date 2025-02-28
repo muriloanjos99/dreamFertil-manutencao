@@ -26,7 +26,7 @@ function App() {
       <div className="maintenance-container">
         <video
           className="background-video"
-          src="src/assets/file.mp4"
+          src="/file.mp4"
           autoPlay
           loop
           muted
