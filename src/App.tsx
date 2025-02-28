@@ -30,6 +30,7 @@ function App() {
           autoPlay
           loop
           muted
+          playsInline
         />
         <span className='title-container'>
           <h1 className="title">Nosso site está em Manutenção</h1>
