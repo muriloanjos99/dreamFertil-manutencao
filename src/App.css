@@ -26,7 +26,7 @@
   height: 100vh;
   object-fit: cover;
   z-index: -1;
-  filter: blur(1.5px);
+  filter: blur(4px);
 }
 
 .maintenance-container {
@@ -48,6 +48,7 @@
   justify-content: center;
   align-items: center;
   gap: 1.5vw;
+  margin-bottom: 1.5vh;
 }
 
 .title-container {
@@ -56,6 +57,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+  margin-bottom: 4vh;
 }
 
 .title {
@@ -68,7 +70,7 @@
 }
 
 .subtitle {
-  color: rgb(123,158,54);
+  color: #0c4e25;
   font-size: 1.5rem;
   font-weight: 500;
   margin: 0 !important;
