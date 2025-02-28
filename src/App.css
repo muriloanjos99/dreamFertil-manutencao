@@ -369,11 +369,16 @@ p {
   .com-address-container {
     width: 50%;
   } 
+
+  .com-address-container {
+    width: 48%;
+  } 
   
   .divider-2 {
     width: 2px;
     height: 110%;
     background-color: #7b9e36;
+    margin: 0;
   }
   
   .contact-container {
