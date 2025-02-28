@@ -26,7 +26,7 @@ function App() {
       <div className="maintenance-container">
         <video
           className="background-video"
-          src="/file.mp4"
+          src="file.mp4"
           autoPlay
           loop
           muted
@@ -39,7 +39,7 @@ function App() {
         </span>
         <div className="content">
           <div className='left-collumn'>
-            <img className="logo" src="/dreamFertilLogo.png" alt="Dream Fértil Logo" />
+            <img className="logo" src="dreamFertilLogo.png" alt="Dream Fértil Logo" />
           </div>
           <div className='right-collumn'>
             <div className='address-card'>
@@ -49,14 +49,14 @@ function App() {
                   <h3>Escritório Comercial</h3>
                   <p>Rua Guarani, 391</p>
                   <p>Maringá - PR</p>
-                  <input type="image" className="location-icon" src="/location-svgrepo-com.svg" alt="" onClick={onClickComercialLocation} />
+                  <input type="image" className="location-icon" src="location-svgrepo-com.svg" alt="" onClick={onClickComercialLocation} />
                 </div>
                 <div className='divider divider-2'></div>
                 <div className='fac-address-container'>
                   <h3>Fábrica</h3>
                   <p>Estrada Bela Vista - Sítio Santa Rita, S/N</p>
                   <p>Quinta do Sol - PR</p>
-                  <input type="image" className="location-icon" src="/location-svgrepo-com.svg" alt="" onClick={onClickFactoryLocation} />
+                  <input type="image" className="location-icon" src="location-svgrepo-com.svg" alt="" onClick={onClickFactoryLocation} />
                 </div>
               </div>
             </div>
@@ -65,11 +65,11 @@ function App() {
                 <h2>Contatos</h2>
                 <div className="contact-info">
                   <div className="phone-container">
-                    <img src="/phone-svgrepo-com.svg" className='phone-icon' alt="ícone representando um telefone" />
+                    <img src="phone-svgrepo-com.svg" className='phone-icon' alt="ícone representando um telefone" />
                     <p>+55 44 99961-2027</p>
                   </div>
                   <div className="phone-container">
-                    <img src="/mail-svgrepo-com.svg" className='mail-icon' alt="ícone representando uma carta, indicando o e-mail" />
+                    <img src="mail-svgrepo-com.svg" className='mail-icon' alt="ícone representando uma carta, indicando o e-mail" />
                     <p>comercial@dreamfertil.com.br</p>
                   </div>
                 </div>
@@ -77,9 +77,9 @@ function App() {
               <div className="contact-card ">
                 <h2>Redes Sociais</h2>
                 <div className="social-media-icons">
-                  <input type="image" className="social-media-icon" src="/instagram-svgrepo-com.svg" alt="" onClick={onClickInstagram} />
-                  <input type="image" className="social-media-icon" src="/facebook-svgrepo-com.svg" alt="" onClick={onClickFacebook} />
-                  <input type="image" className="social-media-icon" src="/linkedin-svgrepo-com.svg" alt="" onClick={onClickLinkedin} />
+                  <input type="image" className="social-media-icon" src="instagram-svgrepo-com.svg" alt="" onClick={onClickInstagram} />
+                  <input type="image" className="social-media-icon" src="facebook-svgrepo-com.svg" alt="" onClick={onClickFacebook} />
+                  <input type="image" className="social-media-icon" src="linkedin-svgrepo-com.svg" alt="" onClick={onClickLinkedin} />
                 </div>
               </div>
             </div>
